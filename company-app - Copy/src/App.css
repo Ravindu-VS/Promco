@@ -1,0 +1,71 @@
+/* App.css */
+
+/* Wrapper for the whole application layout */
+.app-wrapper {
+  display: flex;
+}
+
+/* Main content styling */
+.main-content {
+  flex-grow: 1;
+  padding: px;
+  position: relative;
+  background-color: #f5f5f5;
+  min-height: 100vh; /* Ensures full page height */
+
+  
+  
+}
+
+/* Styling for the login page to center it properly */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height for centering */
+  background-color: #f4f4f4;
+}
+
+/* Sidebar and Topbar related styles can go here (if you have any existing) */
+/* Example of default sidebar and topbar styles */
+.sidebar {
+  width: 250px;
+  background-color: #1e293b;
+  color: #fff;
+  padding: 20px;
+}
+
+.topbar {
+  height: 60px;
+  width: 100%;
+  background-color: #1e293b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Button Styling for the login form */
+.login-button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login-button:hover {
+  background-color: #444;
+}
+
+/* Responsive design tweaks */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .topbar {
+    height: 50px;
+  }
+}

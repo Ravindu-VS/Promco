@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.home {
+    display: flex; /* Flexbox for layout */
+    height: 100vh; /* Full height */
+  }
+  
+  /* Home Content Area */
+  .home-content {
+    padding-left: 250px; /* Match with the sidebar width */
+    width: calc(100% - 250px); /* Ensure proper space for content */
+    background-color: #f7fafc; /* Light background for content */
+    padding: 2rem; /* Padding for content */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 200px; /* Adjust sidebar width on smaller screens */
+    }
+  
+    .home-content {
+      padding-left: 200px; /* Adjust content padding */
+      width: calc(100% - 200px); /* Adjust content width */
+    }
+  }
+  

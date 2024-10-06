@@ -1,0 +1,111 @@
+/* Container for the entire admin section */
+.admin-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color for the container */
+    color: #333; /* Dark text for contrast */
+    min-height: 100vh; /* Full-height to cover the viewport */
+  }
+  
+  /* Heading for the dashboard */
+
+  h1 {
+    color: red; /* Red to match the theme */
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+
+  h2 {
+    color: red; /* Red to match the theme */
+    margin-bottom: 20px;
+  }
+  
+  /* Container for the buttons in the dashboard */
+  .admin-actions {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 15px; /* Spacing between buttons */
+    margin-bottom: 30px; /* Space between buttons and form */
+  }
+  
+  /* Styling for the dashboard buttons */
+  .admin-action-button {
+    background-color: red; /* Red background to follow the theme */
+    color: white; /* White text for contrast */
+    padding: 12px 20px; /* Padding for button */
+    text-align: center; /* Center the button text */
+    text-decoration: none; /* Remove underline from text */
+    border-radius: 5px; /* Rounded corners */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    width: 250px; /* Fixed width for buttons */
+  }
+  
+  /* Hover effect for the dashboard buttons */
+  .admin-action-button:hover {
+    background-color: black; /* Change background to black on hover */
+    color: white; /* Keep text white */
+  }
+  
+  /* Create user form container */
+  .create-user-container {
+    background-color: white; /* White background for form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for elevation */
+    max-width: 400px; /* Maximum width for the form */
+    margin: 0 auto; /* Center the form */
+  }
+  
+  /* Heading for the form */
+  .create-user-container h3 {
+    color: #333; /* Darker text for contrast */
+    margin-bottom: 20px; /* Space between heading and form fields */
+  }
+  
+  /* Style for the input fields */
+  .create-user-container input {
+    width: 100%; /* Full width */
+    padding: 10px; /* Space inside input */
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded input fields */
+    font-size: 16px; /* Larger font size */
+  }
+  
+  /* Submit button styling */
+  .create-user-container button {
+    background-color: red; /* Red background to match the theme */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for readability */
+    width: 100%; /* Full-width button */
+    transition: background-color 0.3s; /* Smooth hover effect */
+  }
+  
+  /* Hover effect for the form button */
+  .create-user-container button:hover {
+    background-color: black; /* Change background to black on hover */
+    color: white; /* Keep text white */
+  }
+  
+  /* Dashboard section styling */
+.dashboard-section {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* View users section styling */
+.view-users-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
